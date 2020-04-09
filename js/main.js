@@ -35,6 +35,15 @@ $(function(){
     arrows: true,
     dots: true,
     autoplay: 2000,
+    responsive: [
+      {
+        breakpoint: 720,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+        }
+      },
+    ]
 
 
     // СВОЙ КЛАСС ТОЧЕК (dots)
