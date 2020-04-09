@@ -70,16 +70,27 @@ $(function(){
       '<button type="button" class="r__btn--pre"></button>',
     nextArrow:
       '<button type="button" class="r__btn--next"></button>',
-
-      responsive: [
-      {
-        breakpoint: 720,
-        settings: {
-          slidesToShow: 1,
-          centerMode: true,
-        }
-      },
-    ]
+    
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
   });
   
 
