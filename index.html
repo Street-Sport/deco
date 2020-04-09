@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,700%7CMrs+Saint+Delafield&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
+
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container row">
+
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__li"><a class="nav__link" href="index.html">Главная</a></li>
+          <li class="nav__li"><a class="nav__link" href="blog.html">Блог</a></li>
+          <li class="nav__li"><a class="nav__link" href="about.html">О нас</a></li>
+          <li class="nav__li"><a class="nav__link" href="contact.html">Контакты</a></li>
+          <li class="nav__li"><a class="nav__link" href="404.html">404</a></li>
+          <li class="nav__li"><a class="nav__link" href="single.html">Статья</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__btn-menu"><i class="fas fa-bars"></i></button>
+
+      <p class="header__title">DECO BLOG</p>
+
+      <div class="header__social">
+        <ul class="header__social-ul">
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fas fa-rss"></i></a>
+          </li>
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fab fa-tumblr"></i></a>
+          </li>
+          <li class="header__social-li" id="search">
+            <a class="header__social-link" href="#"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="header__btn-social"><i class="fas fa-angle-double-down"></i></button>
+
+          <div class="search-expand">
+            <div class="search-expand-inner">
+              <form method="get" class="searchform themeform">
+                <div>
+                  <input type="text" class="search" placeholder="Введите поисковую фразу">
+                </div>
+              </form>
+            </div>
+          </div>
+
+    </div>
+  </header>
+
+  <section class="slider">
+    <div class="container">
+      <div class="slider__inner">
+
+        <div class="slider__item">
+          <div class="slider__suptitle">Последние новости</div>
+          <h2 class="slider__title">Соревнования по CrossFit</h2>
+          <p class="slider__text">Featured Article</p>
+          <img class="slider__pic" src="img/slider/1.jpg" alt="">
+        </div>
+        <div class="slider__item">
+          <div class="slider__suptitle">Фитнес</div>
+          <h2 class="slider__title">Фитнес как образ жизни</h2>
+          <p class="slider__text">Featured Article</p>
+          <img class="slider__pic" src="img/slider/5.jpg" alt="">
+        </div>
+        <div class="slider__item">
+          <div class="slider__suptitle">Упражнения</div>
+          <h2 class="slider__title">Упражнения калистеники</h2>
+          <p class="slider__text">Featured Article</p>
+          <img class="slider__pic" src="img/slider/6.jpg" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+  <section class="signup container">
+      <div class="signup__inner row">
+
+        <h4 class="signup__title">Подписка на РАССЫЛКУ</h4>
+
+        <form class="signup__form" action="#" method="POST">
+          <input class="signup__name" type="text" name="user_name" placeholder="Ваше имя">
+          <input class="signup__email" type="email" name="user_email" placeholder="Ваш почта">
+          <button class="signup__btn" type="submit">Подписаться</button>
+        </form>
+
+      </div>
+  </section>
+
+  <div class="main">
+    <div class="container">
+      <div class="main__inner">
+
+        <div class="content">
+          <div class="content__inner">
+
+            <article class="article">
+
+              <div class="article__pic">
+                <img src="img/article/post-1.jpg" alt="">
+                <div class="article__deco"><i class="fas fa-image"></i></div>
+              </div>   
+              <p class="article__category"><a href="#">Фитнес</a></p>
+              <h2 class="article__title">В здоровом теле - здоровый дух</h2>
+              
+              <div class="article__meta">
+                <p class="article__author"><i class="fas fa-user"></i> Виталий Шевченко</p>
+                <p class="article__date"><i class="far fa-calendar-alt"></i> Апрель 16, 2020</p>
+              </div>
+
+              <p class="article__text">
+                Кроссфит-тренировки включают в себя элементы интервальных тренировок высокой интенсивности, тяжёлой атлетики,
+                плиометрики, пауэрлифтинга, гимнастики, гиревого спорта, упражнений стронгмена, бега и других. Кроссфит практикуется
+                членами более чем 13 тысяч специализированных тренажёрных залов, примерно половина из которых находится в Соединённых
+                Штатах.
+              </p>
+              <button class="article__btn">Подробнее</button>
+
+              <div class="article__bottom">
+                <div class="activle__stat">
+                  <p class="article__comment"><i class="far fa-comments"></i> 06 комментариев</p>
+                  <p class="article__like"><i class="far fa-heart"></i> лайков 25</p>
+                </div>
+
+
+                <div class="social">
+                  <ul class="social__ul">
+                    <li class="social__li"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </article>
+
+            <article class="article">
+            
+              <div class="article__galery">
+                <div class="article__galery-left">
+                  <img src="img/article/galer-1.jpg" alt="">
+                  <img src="img/article/galer-2.jpg" alt="">
+                </div>
+
+                <div class="article__galery-center">
+                  <img src="img/article/galer-3.jpg" alt="">
+                </div>
+
+                <div class="article__galery-right">
+                  <img src="img/article/galer-4.jpg" alt="">
+                  <img src="img/article/galer-5.jpg" alt="">
+                </div>
+                <div class="article__deco"><i class="fas fa-images"></i></div>
+              </div>
+              <p class="article__category"><a href="#">Галерея</a></p>
+              <h2 class="article__title">Мотивация в спорте</h2>
+            
+              <div class="article__meta">
+                <p class="article__author"><i class="fas fa-user"></i> Виталий Шевченко</p>
+                <p class="article__date"><i class="far fa-calendar-alt"></i> Апрель 10, 2020</p>
+              </div>
+            
+              <p class="article__text">
+                Часовое занятие в аффилированном спортивном зале, или «боксе», как правило, включает в себя разминку, сегмент развития
+                навыков, высокоинтенсивную «тренировку дня» (WOD), индивидуальные или групповые растяжки. В некоторых спортивных залах
+                тренировке дня предшествует упражнение на развитие силы. По результатам каждого WOD выставляются оценки для
+                стимулирования конкуренции и отслеживания индивидуального прогресса.
+              </p>
+              <button class="article__btn">Подробнее</button>
+            
+              <div class="article__bottom">
+                <div class="activle__stat">
+                  <p class="article__comment"><i class="far fa-comments"></i> 08 комментариев</p>
+                  <p class="article__like"><i class="far fa-heart"></i> лайков 35</p>
+                </div>
+            
+            
+                <div class="social">
+                  <ul class="social__ul">
+                    <li class="social__li"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                  </ul>
+                </div>
+            
+              </div>
+            
+            </article>
+
+            <div class="article">
+              <div class="article__quote">
+                <p class="article__quote-text">Речь идет о активном образе жизни, сохранении здоровых способностей и принятии правильных решений. Жизнь - это баланс.
+                Не все хотят бежать марафон, но у природы есть свои законы.</p>
+                <p class="article__quote-author">ПОЛ ПИТЕРСОН</p>
+                <div class="article__deco article__deco--top"><i class="fas fa-quote-left"></i></div>
+              </div>
+            </div>
+
+            <article class="article">
+            
+              <div class="article__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vlDzYIIOYmM?controls=0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <div class="article__deco"><i class="fas fa-video"></i></div>
+              </div>
+
+              <p class="article__category"><a href="#">ВЛОГ</a></p>
+              <h2 class="article__title">путешествие к зимним канадским горам</h2>
+            
+              <div class="article__meta">
+                <p class="article__author"><i class="fas fa-user"></i> Виталий Шевченко</p>
+                <p class="article__date"><i class="far fa-calendar-alt"></i> МАРТ 10, 2020</p>
+              </div>
+            
+              <p class="article__text">
+                Канадские Скалистые горы охватывают территории провинций Британская Колумбия и Альберта. Они известны благодаря ледяным
+                шапкам остроконечных горных вершин, самая высокая из которых – Робсон, а также чистейшим озерам, разнообразной флоре и
+                фауне и многочисленным курортным зонам. В горах расположено несколько национальных парков: Йохо с гигантским водопадом
+                Такаккау, Джаспер с ледником Атабаска, известным тем, что до него можно легко добраться, и Банф с ледниковым озером
+                Луиз.
+              </p>
+              <button class="article__btn">Подробнее</button>
+            
+              <div class="article__bottom">
+                <div class="activle__stat">
+                  <p class="article__comment"><i class="far fa-comments"></i> 08 комментариев</p>
+                  <p class="article__like"><i class="far fa-heart"></i> лайков 35</p>
+                </div>
+            
+            
+                <div class="social">
+                  <ul class="social__ul">
+                    <li class="social__li"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                  </ul>
+                </div>
+            
+              </div>
+            
+            </article>
+
+            <article class="article">
+            
+              <div class="article__sound">
+                <iframe width="100%" height="300" allow="autoplay"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202846643&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <div class="article__deco"><i class="fas fa-music"></i></div>
+              </div>
+            
+              <p class="article__category"><a href="#">АУДИО</a></p>
+              <h2 class="article__title">ДУШЕВНАЯ МИЛОДИЯ ДЛЯ МЕДИТАЦИИ</h2>
+            
+              <div class="article__meta">
+                <p class="article__author"><i class="fas fa-user"></i> Виталий Шевченко</p>
+                <p class="article__date"><i class="far fa-calendar-alt"></i> МАРТ 03, 2020</p>
+              </div>
+            
+              <p class="article__text">
+                Музыка, которая поможет медитировать и направить всю жизненную энергию в нужное русло. Состояние внутренней сосредоточенности, самосозерцания для достижения духовного прозрения.
+              </p>
+              <button class="article__btn">Подробнее</button>
+            
+              <div class="article__bottom">
+                <div class="activle__stat">
+                  <p class="article__comment"><i class="far fa-comments"></i> 52 комментариев</p>
+                  <p class="article__like"><i class="far fa-heart"></i> лайков 96</p>
+                </div>
+            
+            
+                <div class="social">
+                  <ul class="social__ul">
+                    <li class="social__li"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social__li"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                  </ul>
+                </div>
+            
+              </div>
+            
+            </article>
+            
+          </div>
+        </div>
+
+        <a class="sidebar-toggle" title="Развернуть боковую панель"><i class="fas fa-angle-double-left"></i></a>
+        
+        <aside class="sidebar">
+          <div class="widget widget__search">
+            <form method="get" class="widget__search-form">
+                <input type="text" placeholder="Поиск по сайту">
+            </form>
+            <button class="widget__search-btn">
+              <i class="fas fa-search"></i>
+            </button> 
+          </div>
+
+          <div class="widget widget__pic">
+            <a href="#"><img src="img/widget/adsens.jpg" alt=""></a>
+          </div>
+
+          <div class="widget widget__cat">
+            <h3 class="widget__title">РУБРИКИ</h3>
+            <ul>
+              <li> <a href="#"><i class="far fa-folder"></i> Влог <span>21</span></a></li>
+              <li> <a href="#"><i class="far fa-folder"></i> Инвентарь <span>32</span></a></li>
+              <li> <a href="#"><i class="far fa-folder"></i> Фитнес <span>46</span></a></li>
+              <li> <a href="#"><i class="far fa-folder"></i> Галерея <span>11</span></a></li>
+              <li> <a href="#"><i class="far fa-folder"></i> Цитаты <span>15</span></a></li>
+              <li> <a href="#"><i class="far fa-folder"></i> Видео <span>68</span></a></li>
+              <li> <a href="#"><i class="far fa-folder"></i> Аудио <span>33</span></a></li>
+            </ul>
+          </div>
+
+          <div class="widget widget__pic">
+            <a href="#"><img src="img/widget/w-ads.jpg" alt=""></a>
+          </div>
+
+          <div class="widget widget__lp">
+            <h3 class="widget__title">Последние посты</h3>
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-5.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной жизни</a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-2.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной нашей современной жизни </a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-1.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной жизни</a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-3.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной жизни</a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+          </div>
+
+          <div class="widget">
+            <div class="social">
+              <ul class="social__ul social__ul-wi">
+                <li class="social__li"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                <li class="social__li"><a href="#"><i class="fab fa-invision"></i></a></li>
+                <li class="social__li"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="social__li"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="social__li"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="widget widget__slider">
+            <img class="widget__slider-img" src="img/article/galer-1.jpg" alt="">
+            <img class="widget__slider-img" src="img/article/galer-3.jpg" alt="">
+            <img class="widget__slider-img" src="img/article/galer-2.jpg" alt="">
+          </div>
+
+        </aside>
+        <div class="clear"></div>
+
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <div class="container row">
+
+      <div class="footer__about">
+        <h3 class="footer__title"><span>О нас</span></h3>
+        <p class="footer__text line-clamp">За время существования проекта было опубликовано более 2000 статей.</p>
+        <div class="footer__img"><img src="img/footer/about.jpg" alt=""></div>
+        <div class="footer__author">Nathaliya Jhone</div>
+      </div>
+
+      <div class="footer__tweets">
+        <h3 class="footer__title"><span>Последние твиты</span></h3>
+        <div class="tw-post">
+          <p class="tw-post__user"><a href="#"><i class="fab fa-twitter"></i> @Twitter@magicalrebekah</a></p>
+          <p class="line-clamp">Пользователь <i>@heyval</i> соывершенно точно отметил на своей страничке...</p>
+        </div>
+        <div class="tw-post">
+          <p class="tw-post__user"><a href="#"><i class="fab fa-twitter"></i> @Twitter@magicalrebekah</a></p>
+          <p class="line-clamp">Исторически так сложилось, что большинство людей думают стереотипами о том, как...</p>
+        </div>
+      </div>
+
+      <div class="footer__instagram">
+        <h3 class="footer__title"><span>Инстаграм</span></h3>
+
+          <div class="f-data">
+            <a href="https://www.instagram.com/p/B9hmPl1JiiU/" target="_blank"><img src="img/footer/insta-1.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B9dEc-Ypbr9/" target="_blank"><img src="img/footer/insta-2.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B84B1oupzG5/" target="_blank"><img src="img/footer/insta-3.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B81dbSTpZVU/" target="_blank"><img src="img/footer/insta-4.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B8RgG0Mp9J8/" target="_blank"><img src="img/footer/insta-5.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B8EphTFJX3z/" target="_blank"><img src="img/footer/insta-6.jpg" alt=""></a> 
+          </div> 
+
+      </div>
+
+      <div class="footer__comment">
+        <h3 class="footer__title"><span>Комментарии</span></h3>
+
+        <div class="comment-post">
+          <p class="comment-post__author"><a href="#">Алекс пишет:</a></p>
+          <p class="comment-post__text line-clamp">Переодическое голодание действительно работает для большинства людей положительным образом.</p>
+        </div>
+        <div class="comment-post">
+          <p class="comment-post__author"><a href="#"> Сабрина пишет:</a></p>
+          <p class="comment-post__text line-clamp">Возможно диеты и работают, но они точно не действуют пока вы не действуете.</p>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="footer__bottom">
+
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

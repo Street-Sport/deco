@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,700%7CMrs+Saint+Delafield&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
+
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container row">
+
+      <nav class="nav">
+        <ul class="nav__ul">
+          <li class="nav__li"><a class="nav__link" href="index.html">Главная</a></li>
+          <li class="nav__li"><a class="nav__link" href="blog.html">Блог</a></li>
+          <li class="nav__li"><a class="nav__link" href="about.html">О нас</a></li>
+          <li class="nav__li"><a class="nav__link" href="contact.html">Контакты</a></li>
+          <li class="nav__li"><a class="nav__link" href="404.html">404</a></li>
+          <li class="nav__li"><a class="nav__link" href="single.html">Статья</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__btn-menu"><i class="fas fa-bars"></i></button>
+
+      <p class="header__title">DECO BLOG</p>
+
+      <div class="header__social">
+        <ul class="header__social-ul">
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fas fa-rss"></i></a>
+          </li>
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="header__social-li">
+            <a class="header__social-link" href="#"><i class="fab fa-tumblr"></i></a>
+          </li>
+          <li class="header__social-li" id="search">
+            <a class="header__social-link" href="#"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="header__btn-social"><i class="fas fa-angle-double-down"></i></button>
+
+          <div class="search-expand">
+            <div class="search-expand-inner">
+              <form method="get" class="searchform themeform">
+                <div>
+                  <input type="text" class="search" placeholder="Введите поисковую фразу">
+                </div>
+              </form>
+            </div>
+          </div>
+
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="container">
+      <div class="main__inner">
+
+        <div class="content">
+          <div class="content__inner">
+
+
+
+
+            <div class="contact">
+
+              <div class="row">
+                <div class="contact__map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139179.58565395235!2d23.989081918361286!3d56.97139619788683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2z0KDQuNCz0LAsINCb0LDRgtCy0LjRjw!5e0!3m2!1sru!2sua!4v1584816628197!5m2!1sru!2sua"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+                </div>
+                <div class="contact__info">
+                  <h3 class="contact__title">Информация</h3>
+                  <p>Если у вас возникли какие-либо вопросы, то напишите нам на электронную почту или посетите наш сайт.</p>
+                  <p><i class="fas fa-map"></i> Address: 123 Street Name, City Name, United States.</p>
+                  <p><i class="far fa-envelope"></i> Email: info@lifestyle.com</p>
+                  <p><i class="fas fa-globe-europe"></i> www.lifestyle.com</p>
+                </div>
+              </div>
+              
+              <form action="#">
+                <input class="contact__name" type="text" placeholder="Имя">
+                <input class="contact__name" type="email" placeholder="Почта">
+                <input class="contact__web" type="text" placeholder="Сайт">
+                <textarea class="contact__text" placeholder="Введите текст здесь..." name="comment" cols="40" rows="3"></textarea>
+              </form>
+
+            </div>
+
+
+
+            
+          </div>
+        </div>
+
+        <a class="sidebar-toggle" title="Развернуть боковую панель"><i class="fas fa-angle-double-left"></i></a>
+        
+        <aside class="sidebar">
+          <div class="widget widget__search">
+            <form method="get" class="widget__search-form">
+                <input type="text" placeholder="Поиск по сайту">
+            </form>
+            <button class="widget__search-btn">
+              <i class="fas fa-search"></i>
+            </button> 
+          </div>
+
+          <div class="widget widget__pic">
+            <a href="#"><img src="img/widget/w-ads.jpg" alt=""></a>
+          </div>
+
+          <div class="widget widget__lp">
+            <h3 class="widget__title">Последние посты</h3>
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-5.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной жизни</a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-4.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной нашей современной жизни </a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-2.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной жизни</a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+
+            <div class="widget__lp-group clear">
+              <div class="widget__lp-pic"><a href="#"><img src="img/article/galer-1.jpg" alt=""></a></div>
+              <p class="widget__lp-title"><a href="#">Спорт как стиль современной жизни</a></p>
+              <p class="widget__lp-date">Янв. 16 2019</p>
+              <p class="widget__lp-like">55 лайков</p>
+            </div>
+          </div>
+
+
+        </aside>
+        <div class="clear"></div>
+
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="container row">
+
+      <div class="footer__about">
+        <h3 class="footer__title"><span>О нас</span></h3>
+        <p class="footer__text line-clamp">За время существования проекта было опубликовано более 2000 статей.</p>
+        <div class="footer__img"><img src="img/footer/about.jpg" alt=""></div>
+        <div class="footer__author">Nathaliya Jhone</div>
+      </div>
+
+      <div class="footer__tweets">
+        <h3 class="footer__title"><span>Последние твиты</span></h3>
+        <div class="tw-post">
+          <p class="tw-post__user"><a href="#"><i class="fab fa-twitter"></i> @Twitter@magicalrebekah</a></p>
+          <p class="line-clamp">Пользователь <i>@heyval</i> соывершенно точно отметил на своей страничке...</p>
+        </div>
+        <div class="tw-post">
+          <p class="tw-post__user"><a href="#"><i class="fab fa-twitter"></i> @Twitter@magicalrebekah</a></p>
+          <p class="line-clamp">Исторически так сложилось, что большинство людей думают стереотипами о том, как...</p>
+        </div>
+      </div>
+
+      <div class="footer__instagram">
+        <h3 class="footer__title"><span>Инстаграм</span></h3>
+
+          <div class="f-data">
+            <a href="https://www.instagram.com/p/B9hmPl1JiiU/" target="_blank"><img src="img/footer/insta-1.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B9dEc-Ypbr9/" target="_blank"><img src="img/footer/insta-2.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B84B1oupzG5/" target="_blank"><img src="img/footer/insta-3.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B81dbSTpZVU/" target="_blank"><img src="img/footer/insta-4.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B8RgG0Mp9J8/" target="_blank"><img src="img/footer/insta-5.jpg" alt=""></a> 
+            <a href="https://www.instagram.com/p/B8EphTFJX3z/" target="_blank"><img src="img/footer/insta-6.jpg" alt=""></a> 
+          </div> 
+
+      </div>
+
+      <div class="footer__comment">
+        <h3 class="footer__title"><span>Комментарии</span></h3>
+
+        <div class="comment-post">
+          <p class="comment-post__author"><a href="#">Алекс пишет:</a></p>
+          <p class="comment-post__text line-clamp">Переодическое голодание действительно работает для большинства людей положительным образом.</p>
+        </div>
+        <div class="comment-post">
+          <p class="comment-post__author"><a href="#"> Сабрина пишет:</a></p>
+          <p class="comment-post__text line-clamp">Возможно диеты и работают, но они точно не действуют пока вы не действуете.</p>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="footer__bottom">
+
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
