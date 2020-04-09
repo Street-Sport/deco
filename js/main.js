@@ -35,15 +35,7 @@ $(function(){
     arrows: true,
     dots: true,
     autoplay: 2000,
-    responsive: [
-      {
-        breakpoint: 720,
-        settings: {
-          slidesToShow: 1,
-          centerMode: true,
-        }
-      },
-    ]
+  
 
 
     // СВОЙ КЛАСС ТОЧЕК (dots)
@@ -79,6 +71,15 @@ $(function(){
     nextArrow:
       '<button type="button" class="r__btn--next"></button>',
 
+      responsive: [
+      {
+        breakpoint: 720,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+        }
+      },
+    ]
   });
   
 
